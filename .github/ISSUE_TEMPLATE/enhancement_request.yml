@@ -26,7 +26,7 @@ body:
       description: Indicate here some basic examples of your feature
       placeholder: Soem basic example useful to describe the expected behaviour
     validations:
-      required: true
+      required: false
   - type: textarea
     id: drawbacks
     attributes:
