@@ -11,19 +11,6 @@ body:
       placeholder: Short and explicit description of your incident
     validations:
       required: true
-  - type: dropdown
-    id: priority
-    attributes:
-      label: "Priority"
-      description: How it is critical this bug?
-      multiple: true
-      options:
-        - 🔴 Critical
-        - 🟠 High
-        - 🟡 Medium
-        - 🟢 Low
-    validations:
-      required: false
   - type: textarea
     id: reprod
     attributes:
